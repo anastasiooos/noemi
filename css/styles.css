@@ -1,13 +1,13 @@
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Regular.woff");
+  src: url("../fontsize/OpenSans-Regular.woff");
   font-style: normal;
   font-weight: 400;
 }
 
 @font-face {
   font-family: "OpenSans";
-  src: url("../fonts/OpenSans-Bold.woff");
+  src: url("../fontsize/OpenSans-Bold.woff");
   font-style: normal;
   font-weight: 700;
 }
@@ -162,7 +162,7 @@ h3 {
   padding-bottom: 146px;
 
   background-color: #1e2b4c;
-  background-image: url("../images/header-bg-desktop.jpg");
+  background-image: url("../images/banner-bg.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -801,15 +801,11 @@ h3 {
 }
 
 .socials-link-pinterest {
-  background-image: url("../svg/001-pinterest.svg");
+  background-image: url("../svg/002-pinterest.svg");
 }
 
 .socials-link-facebook {
-  background-image: url("../svg/002-facebook-logo.svg");
-}
-
-.socials-link-instagram {
-  background-image: url("../svg/005-instagram.svg");
+  background-image: url("../svg/001-pinterest.svg");
 }
 
 .socials-link-tumblr {
@@ -879,7 +875,7 @@ h3 {
   }
 
   .header {
-    background-image: url("../images/header-bg-tablet.jpg");
+    background-image: url("../images/banner-bg-tablet.jpg");
   }
 
   .menu {
@@ -1040,7 +1036,7 @@ h3 {
   }
 
   .header {
-    background-image: url("../images/header-bg-mobile.jpg");
+    background-image: url("../images/banner-mobile.jpg");
     padding-bottom: 220px;
   }
 
